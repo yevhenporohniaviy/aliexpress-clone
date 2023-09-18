@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+https://www.youtube.com/watch?v=dVcCRFVhz74&t=53s
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
@@ -61,4 +63,5 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
 # aliexpress-clone
