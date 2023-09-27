@@ -13,8 +13,11 @@
     "@nuxt/devtools": "latest",
     "nuxt": "^3.7.3"
   },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
   "dependencies": {
-    "@nuxtjs/supabase": "^1.1.0",
+    "@nuxtjs/supabase": "0.3.5",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
     "@pinia/nuxt": "^0.4.11",

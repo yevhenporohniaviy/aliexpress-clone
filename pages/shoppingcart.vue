@@ -1,8 +1,8 @@
 <template>
     <MainLayout>
         <div id="ShoppingCartPage" class="mt-4 max-w-[1200px] mx-auto px-2">
-          <!-- !userStore.cart.length -->
-            <div v-if="false" class="h-[500px] flex items-center justify-center"> 
+        
+            <div v-if="!userStore.cart.length" class="h-[500px] flex items-center justify-center"> 
                 <div class="pt-20">
                     <img 
                         class="mx-auto"
@@ -114,7 +114,7 @@
 import MainLayout from '~/layouts/MainLayout.vue';
 import { useUserStore } from '~/stores/user';
 const userStore = useUserStore()
-// const user = useSupabaseUser()
+const user = useSupabaseUser()
 
 let selectedArray = ref([])
 
