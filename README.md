@@ -4,6 +4,19 @@ https://www.youtube.com/watch?v=dVcCRFVhz74&t=53s
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+### Setup .env file
+
+
+```js
+SUPABASE_KEY=
+SUPABASE_URL=
+
+STRIPE_PK_KEY=
+STRIPE_SK_KEY=
+# This was inserted by `prisma init`:
+DATABASE_URL=
+```
+
 ## Setup
 
 Make sure to install the dependencies:
